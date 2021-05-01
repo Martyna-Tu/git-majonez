@@ -1,0 +1,63 @@
+ 1943  mkdir git-majonez
+ 1944  cd git-majonez/
+ 1945  git init
+ 1946  ls -la
+ 1947  touch main.cpp
+ 1948  echo Goodbye World > main.cpp 
+ 1949  cat main.cpp 
+ 1950  git status
+ 1951  git add .
+ 1952  git status
+ 1953  git commit -m"Initial commit"
+ 1954  echo Hello World > main.cpp 
+ 1955  cat main.cpp 
+ 1956  git status
+ 1957  git add .
+ 1958  git commit -m"Farewell changed"
+ 1959  git status
+ 1960  git log --oneline
+ 1961  git remote add origin https://github.com/Martyna-Tu/git-majonez.git
+ 1962  git push -u origin master
+ 1963  git cheakout -b cs
+ 1964  git checkout -b cs
+ 1965  ls 
+ 1966  ls
+ 1967  git status
+ 1968  git branch
+ 1969  git log --oneline
+ 1970  git reflog
+ 1971  git help reflog
+ 1972  git log --oneline
+ 1973  git reset ba8a84b
+ 1974  git status
+ 1975  git log
+ 1976  git log --oneline
+ 1977  echo Goodbye Coders School > main.cpp 
+ 1978  cat main.cpp 
+ 1979  git status
+ 1980  git add .
+ 1981  git commit -m"Greetings"
+ 1982  git log --oneline
+ 1983  git push origin cs
+ 1984  git diff cs..master
+ 1985  git branch
+ 1986  git checkout master
+ 1987  git branch
+ 1988  git merge cs
+ 1989  vi main.cpp 
+ 1990  git status
+ 1991  git add .
+ 1992  git commit
+ 1993  git log --oneline
+ 1994  history
+ 1995  history | tail n52 > history.txt
+ 1996  touch history.txt
+ 1997  history
+ 1998  history | tail n55 > history.txt
+ 1999  ls 
+ 2000  man tail
+ 2001  history
+ 2002  history | tail -n59 > history.txt
+ 2003  less history.txt 
+ 2004  history
+ 2005  history | tail -n63 > history.txt
